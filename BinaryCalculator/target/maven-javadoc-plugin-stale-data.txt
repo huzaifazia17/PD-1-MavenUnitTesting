@@ -32,25 +32,25 @@
 com.ontariotechu.sofe3980U
 'C:/Users/ziahu/PD-1-MavenUnitTesting/BinaryCalculator/src/test/java/com/ontariotechu/sofe3980U/AppTest.java'
 'C:/Users/ziahu/PD-1-MavenUnitTesting/BinaryCalculator/src/test/java/com/ontariotechu/sofe3980U/BinaryTest.java'
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\classes = 1674607806060
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\test-classes = 1674607806153
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\classes = 1674609459925
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\test-classes = 1674609460022
 C:\Users\ziahu\.m2\repository\joda-time\joda-time\2.9.2\joda-time-2.9.2.jar = 1674606116103
 C:\Users\ziahu\.m2\repository\junit\junit\4.11\junit-4.11.jar = 1674606116084
 C:\Users\ziahu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar = 1674606116085
 C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\src\test\java = 1674606099431
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\allclasses-index.html = 1674607972133
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\allpackages-index.html = 1674607972136
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\element-list = 1674607972077
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\help-doc.html = 1674607972154
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\index-all.html = 1674607972150
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\index.html = 1674607972152
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\jquery-ui.overrides.css = 1674607972173
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\member-search-index.js = 1674607972138
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\module-search-index.js = 1674607972136
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\overview-tree.html = 1674607972120
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\package-search-index.js = 1674607972137
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\script.js = 1674607972158
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\search.js = 1674607972159
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\stylesheet.css = 1674607972156
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\tag-search-index.js = 1674607972139
-C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\type-search-index.js = 1674607972138
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\allclasses-index.html = 1674609497786
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\allpackages-index.html = 1674609497788
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\element-list = 1674609497728
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\help-doc.html = 1674609497810
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\index-all.html = 1674609497805
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\index.html = 1674609497807
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\jquery-ui.overrides.css = 1674609497832
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\member-search-index.js = 1674609497793
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\module-search-index.js = 1674609497790
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\overview-tree.html = 1674609497774
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\package-search-index.js = 1674609497791
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\script.js = 1674609497813
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\search.js = 1674609497815
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\stylesheet.css = 1674609497812
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\tag-search-index.js = 1674609497793
+C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\site\testapidocs\type-search-index.js = 1674609497792
