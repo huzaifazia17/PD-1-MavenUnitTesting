@@ -94,32 +94,40 @@ public class Binary {
 
 	}
 
-	public static Binary OR(Binary num1, Binary num2) {
-		int a = Integer.parseInt(num1.getValue(), 2);
-		int b = Integer.parseInt(num2.getValue(), 2);
-		int or = a | b;
+	public static Binary OR(Binary bin1, Binary bin2) {
+		// Parse the binary strings to integers and perform the OR operation
+		int num1 = Integer.parseInt(bin1.getValue(), 2);
+		int num2 = Integer.parseInt(bin2.getValue(), 2);
+		int or = num1 | num2;
 		return new Binary(Integer.toBinaryString(or));
 	}
 
-	public static Binary AND(Binary num1, Binary num2) {
-		int a = Integer.parseInt(num1.getValue(), 2);
-		int b = Integer.parseInt(num2.getValue(), 2);
-		int and = a & b;
+	public static Binary AND(Binary bin1, Binary bin2) {
+		// Parse the binary strings to integers and perform the AND operation
+		int num1 = Integer.parseInt(bin1.getValue(), 2);
+		int num2 = Integer.parseInt(bin2.getValue(), 2);
+		int and = num1 & num2;
 		return new Binary(Integer.toBinaryString(and));
 	}
 
-	public static Binary multiply(Binary num1, Binary num2) {
-		int aInt = Integer.parseInt(num1.getValue(), 2);
-		int bInt = Integer.parseInt(num2.getValue(), 2);
-		int result = 0;
-		while (bInt != 0) {
-			if ((bInt & 1) == 1) {
-				result = add(result, aInt);
-				bInt = bInt - 1;
+	public static Binary multiply(Binary bin1, Binary bin2) {
+		// Parse the binary strings to integers and perform the multiplication operation
+		Binary result = new Binary("0");
+		Binary num1 = new Binary(bin1.getValue());
+		Binary num2 = new Binary(bin2.getValue());
+		// Loop runs until value of num2 is 0. Loop checks if last digit of num2 is 1,
+		// if so then
+		// add num1 to result using the add function.
+		while (!num2.getValue().equals("0")) {
+			if (num2.getValue().endsWith("1")) {
+				result = add(result, num1);
 			}
-			aInt = add(aInt, aInt);
+			// A is added to itself
+			num1 = add(num1, num1);
+			// Will run until num2 is 0
+			num2 = new Binary(num2.getValue().substring(0, num2.getValue().length() - 1));
 		}
-		return new Binary(Integer.toBinaryString(result));
+		return result;
 	}
 
 }

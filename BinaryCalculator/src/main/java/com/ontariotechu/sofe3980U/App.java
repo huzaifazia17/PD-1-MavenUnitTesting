@@ -24,19 +24,24 @@ public class App {
 		System.out.println("Second binary number is " + binary2.getValue());
 		Binary sum = Binary.add(binary1, binary2);
 		System.out.println("Their summation is " + sum.getValue());
-		System.out.println("1");
-		Binary num1 = new Binary("1001");
-		Binary num2 = new Binary("0110");
-		System.out.println("2");
-		Binary result1 = Binary.OR(num1, num2);
-		System.out.println("3");
-		Binary result2 = Binary.AND(num1, num2);
-		System.out.println("4");
-		Binary result3 = Binary.multiply(num1, num2);
-		System.out.println("5");
-		System.out.println("OR: " + result1.getValue());
-		System.out.println("AND: " + result2.getValue());
-		System.out.println("Multiply: " + result3.getValue());
+
+		// DESIGN QUESTIONS
+
+		// Construct Binary objects
+		Binary bin1 = new Binary("1001001");
+		Binary bin2 = new Binary("0110110");
+
+		// Apply operations to binary objects
+		Binary orRes = Binary.OR(bin1, bin2);
+		Binary andRes = Binary.AND(bin1, bin2);
+		Binary mulRes = Binary.multiply(bin1, bin2);
+
+		// Print results
+		System.out.println("/n Design Questions /n");
+		System.out.println("The following operations will be done on " + bin1.getValue() + " and " + bin2.getValue());
+		System.out.println("Bitwise OR operation result: " + orRes.getValue());
+		System.out.println("Bitwise AND operation result:" + andRes.getValue());
+		System.out.println("Bitwise MULTIPLICATION operation result:" + mulRes.getValue());
 
 	}
 }
