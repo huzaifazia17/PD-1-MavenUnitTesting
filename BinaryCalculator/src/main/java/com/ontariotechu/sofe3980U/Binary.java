@@ -111,7 +111,6 @@ public class Binary {
 	}
 
 	public static Binary multiply(Binary bin1, Binary bin2) {
-		// Parse the binary strings to integers and perform the multiplication operation
 		Binary result = new Binary("0");
 		Binary num1 = new Binary(bin1.getValue());
 		Binary num2 = new Binary(bin2.getValue());
