@@ -123,7 +123,7 @@ public class Binary {
 			}
 			// A is added to itself
 			num1 = add(num1, num1);
-			// Will run until num2 is 0
+			// Shifts num2 to the right by 1
 			num2 = new Binary(num2.getValue().substring(0, num2.getValue().length() - 1));
 		}
 		return result;
