@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ontariotechu.sofe3980U.BinaryTest" time="0.001" tests="11" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.ontariotechu.sofe3980U.BinaryTest" time="0" tests="20" errors="0" skipped="0" failures="0">
   <properties>
     <property name="java.specification.version" value="17"/>
     <property name="sun.cpu.isalist" value="amd64"/>
@@ -15,7 +15,7 @@
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="user.country" value="CA"/>
     <property name="sun.boot.library.path" value="C:\Program Files\Eclipse Adoptium\jdk-17.0.3.7-hotspot\bin"/>
-    <property name="sun.java.command" value="C:\Users\ziahu\AppData\Local\Temp\surefire8485593250861220421\surefirebooter5210524083054646033.jar C:\Users\ziahu\AppData\Local\Temp\surefire8485593250861220421 2023-01-24T19-33-17_514-jvmRun1 surefire9197245022872301642tmp surefire_03146785712257239145tmp"/>
+    <property name="sun.java.command" value="C:\Users\ziahu\AppData\Local\Temp\surefire297633363552734058\surefirebooter377468471152319736.jar C:\Users\ziahu\AppData\Local\Temp\surefire297633363552734058 2023-01-24T19-52-48_060-jvmRun1 surefire8441222809740675729tmp surefire_011050098395531870736tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="surefire.test.class.path" value="C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\test-classes;C:\Users\ziahu\PD-1-MavenUnitTesting\BinaryCalculator\target\classes;C:\Users\ziahu\.m2\repository\joda-time\joda-time\2.9.2\joda-time-2.9.2.jar;C:\Users\ziahu\.m2\repository\junit\junit\4.11\junit-4.11.jar;C:\Users\ziahu\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;"/>
     <property name="sun.cpu.endian" value="little"/>
@@ -30,7 +30,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\ziahu\AppData\Local\Temp\surefire8485593250861220421\surefirebooter5210524083054646033.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\ziahu\AppData\Local\Temp\surefire297633363552734058\surefirebooter377468471152319736.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="17.0.3+7"/>
@@ -57,15 +57,24 @@
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="61.0"/>
   </properties>
-  <testcase name="constructorWithInvalidDigits" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0.001"/>
+  <testcase name="constructorWithInvalidDigits" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
+  <testcase name="multiply2" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
+  <testcase name="multiply3" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
+  <testcase name="or" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="add" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
+  <testcase name="and" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
+  <testcase name="or2" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
+  <testcase name="or3" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="add2" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="add3" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="add4" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="add5" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
+  <testcase name="and2" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
+  <testcase name="and3" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="constructorWithNegativeSign" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="constructorWithInvalidChars" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="constructorEmptyString" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
+  <testcase name="multiply" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="normalConstructor" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
   <testcase name="constructorWithZeroTailing" classname="com.ontariotechu.sofe3980U.BinaryTest" time="0"/>
 </testsuite>
