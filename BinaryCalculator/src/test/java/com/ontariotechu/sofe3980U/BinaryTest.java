@@ -122,6 +122,10 @@ public class BinaryTest {
     // OR TEST FUNCTIONS
     /**
      * Test The OR functions with two binary numbers of the same length
+     * 
+     * @param binary1 The first binary number
+     * @param binary2 The second binary number
+     * @return The result of the OR operation
      */
     @Test
     public void or() {
@@ -134,6 +138,10 @@ public class BinaryTest {
     /**
      * Test The OR functions with two binary numbers, the length of the first being
      * longer
+     * 
+     * @param binary1 The first binary number
+     * @param binary2 The second binary number
+     * @return The result of the OR operation
      */
     @Test
     public void or2() {
@@ -146,6 +154,10 @@ public class BinaryTest {
     /**
      * Test The OR functions with two binary numbers, the length of the second being
      * longer
+     * 
+     * @param binary1 The first binary number
+     * @param binary2 The second binary number
+     * @return The result of the OR operation
      */
     @Test
     public void or3() {
@@ -158,6 +170,10 @@ public class BinaryTest {
     // AND TEST FUNCTIONS
     /**
      * Test The AND functions with two binary numbers of the same length
+     * 
+     * @param binary1 The first binary number
+     * @param binary2 The second binary number
+     * @return The result of the AND operation
      */
     @Test
     public void and() {
@@ -170,6 +186,10 @@ public class BinaryTest {
     /**
      * Test The AND functions with two binary numbers, the length of the first being
      * longer
+     * 
+     * @param binary1 The first binary number
+     * @param binary2 The second binary number
+     * @return The result of the AND operation
      */
     @Test
     public void and2() {
@@ -182,6 +202,10 @@ public class BinaryTest {
     /**
      * Test The AND functions with two binary numbers, the length of the second
      * being longer
+     * 
+     * @param binary1 The first binary number
+     * @param binary2 The second binary number
+     * @return The result of the AND operation
      */
     @Test
     public void and3() {
@@ -194,6 +218,10 @@ public class BinaryTest {
     // Multiply TEST FUNCTIONS
     /**
      * Test The Multiply functions with two binary numbers of the same length
+     * 
+     * @param binary1 The first binary number
+     * @param binary2 The second binary number
+     * @return The result of the MUTLIPLY operation
      */
     @Test
     public void multiply() {
@@ -206,6 +234,10 @@ public class BinaryTest {
     /**
      * Test The Multiply functions with two binary numbers, the length of the first
      * being longer
+     * 
+     * @param binary1 The first binary number
+     * @param binary2 The second binary number
+     * @return The result of the MUTLIPLY operation
      */
     @Test
     public void multiply2() {
@@ -218,6 +250,10 @@ public class BinaryTest {
     /**
      * Test The Multiply functions with two binary numbers, the length of the second
      * being longer
+     * 
+     * @param binary1 The first binary number
+     * @param binary2 The second binary number
+     * @return The result of the MUTLIPLY operation
      */
     @Test
     public void multiply3() {
